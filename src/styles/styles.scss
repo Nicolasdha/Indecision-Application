@@ -1,0 +1,15 @@
+@import './base/settings';
+@import './base/base';
+@import './components/_add-option';
+@import './components/button';
+@import './components/modal';
+@import './components/option';
+@import './components/container';
+@import './components/header';
+@import './components/widget';
+
+/*BEM block element modifyer naming convention
+block = header
+element = header__title
+modifier = header--link
+*/
