@@ -7,11 +7,8 @@ import OptionModal from './OptionModal'
 
 
 
-// Stateless functional component - simple presentational component - a lot faster
-
-
 export default class IndecisionApp extends React.Component{
-   // Dont need to use this b/c CLASS PROP SYNTAX PLUGIN EXPERIMENTAL
+   // Dont need to use this b/c CLASS PROP SYNTAX PLUGIN
     // constructor(props){
     //   super(props);
     //   this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
@@ -55,7 +52,6 @@ export default class IndecisionApp extends React.Component{
     }
   
     handleDeleteOptions = () => {
-      // Implicitly return object but need () around the object
       this.setState(()=> ({ options: [] })
       );
     };

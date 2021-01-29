@@ -7,23 +7,11 @@ const Option = (props) =>{
       <button 
       onClick={(e)=>{
         props.handleDeleteOption(props.optionText);
-  // Cant call HDO directly b/c passes the event obj up so define
-  // and inline function to pass up the correct value
       }}
       className= "button button--link"
     >Remove</button>
       </div>
     )
   }
-  // class Option extends React.Component{
-  //   render(){
-  //     return (
-  //       <div>
-  //       {this.props.option}
-        
-  //       </div>
-  //     )
-  //   }
-  // }
   
   export default Option

@@ -1,7 +1,7 @@
 import React from 'react';
 
 class AddOption extends React.Component{
-  // Dont need to use this b/c CLASS PROP SYNTAX PLUGIN EXPERIMENTAL
+  // Dont need to use this b/c CLASS PROP SYNTAX PLUGIN 
     // constructor(props){ 
     //   super(props);
     //   this.handleAddOption = this.handleAddOption.bind(this);
@@ -27,10 +27,7 @@ class AddOption extends React.Component{
         e.target.elements.newOptionName.value = "";
       }
       
-      this.setState(()=>({ error })
-          // error: error
-          // In ES6 if there is a property whose value comes from a variable with the same name you can leave it off -> error:error === error
-      );
+      this.setState(()=>({ error }));
 
   }
 
