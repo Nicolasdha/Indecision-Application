@@ -9,11 +9,64 @@
     margin-bottom: $m-size;
     width: 100%;
     padding: 2.4rem;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+    animation: shake 5s ease-in-out infinite alternate;
+
 }
 
 .big-button:disabled {
     opacity: 0.5;
 }
+
+.big-button:hover{
+    -webkit-transform: rotate(360deg);
+    transform: scale(1.1);
+    animation: scale 1s ease-in-out ;
+
+    transition: 0.2s ease-in-out;
+    background: lighten($purple, 10%);
+
+}
+
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+         -webkit-transform: scale(1.1);
+         transform: scale(1.1);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+        // -webkit-transform: scale(1.0);
+    }
+
+    25%{
+        transform: translateX(5px);
+
+    }
+    35%{
+        transform: translateX(-5px);
+    }
+
+    45%{
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(0px);
+        // -webkit-transform: scale(2.0);
+    }
+}
+
 
 // Button
 

@@ -80,7 +80,7 @@ export default class IndecisionApp extends React.Component{
     }
 
     render(){
-      const title = "Indecision"
+      const title = "Indecision - What next?"
       const subTitle = "Put your life in the hands of a computer"
   
       return (
