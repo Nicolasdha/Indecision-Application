@@ -26,10 +26,8 @@ Languages:
 * SCSS/CSS
 
 Frameworks/Utilities:
-* React^17.0.1
-* Redux
-* Express
-* Jest
+* React //// CAN I UPDATE TO LATEST REACT AND BABEL?
+* Jest /// NEEED TO SET UP TEST CASES
 * Enzyme
 
 Compilers/Bundlers:
@@ -37,12 +35,10 @@ Compilers/Bundlers:
 * Bable
 
 Platforms:
-* Heroku
-* Google Firebase
+* Heroku //// NEEEEED TO SET UP ON HEROKU
 
 Third-Party Libraries:
-* Moment
-* React-Dates
+* react-modal
 
 
 ### Launch
