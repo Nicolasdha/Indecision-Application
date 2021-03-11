@@ -42,7 +42,11 @@ class AddOption extends React.Component{
         {this.state.error && <p className="add-option-error">{this.state.error}</p>}
          <form className="add-option"onSubmit={this.handleAddOption}>
            <input type ="text" name="newOptionName" placeholder="Enter new option" className="add-option__input"/>
-           <button className="button">Enter New Option</button>
+           
+           <button className="button__submit" data-hover="Submit"><div>Enter Option!</div></button>
+
+
+
          </form>
        </div>
       )
@@ -51,3 +55,5 @@ class AddOption extends React.Component{
   
   
   export  {AddOption}
+
+  // <button className="button">Enter New Option</button>

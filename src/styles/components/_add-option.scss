@@ -20,6 +20,15 @@
     margin: 0 0 $s-size 0;
     color: white;
     padding: $s-size;
+    letter-spacing: 0.8px;
+
+}
+
+.add-option__input::placeholder{
+    color: $off-white;
+    opacity: 0.8;
+    font-family: initial;
+    letter-spacing: 0.5px;
 }
 
 @media (min-width: $desktop-breakpoint){
