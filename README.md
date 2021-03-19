@@ -15,7 +15,6 @@ Hello! This application was built to help anyone figure out what to do next! Sim
 ## Table of Contents
   * <a href= https://github.com/Nicolasdha/Indecision-Application-React#Technologies>Technologies</a>
   * <a href= https://github.com/Nicolasdha/Indecision-Application-React#Launch>Launch</a>
-  * <a href= https://github.com/Nicolasdha/Indecision-Application-React#Structure> Structure</a>
   
   
 ### Technologies
@@ -49,9 +48,6 @@ Third-Party Libraries:
  <a href=https://alacrity-app.herokuapp.com> Alacrity - An Indecision Application </a>
 
 
-
-
-### Structure
 
 
 Thank you for visiting! <br><br><br>
