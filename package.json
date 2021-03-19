@@ -9,7 +9,9 @@
     "build:dev": "webpack",
     "build:prod": "webpack --env production",
     "start": "node server/server.js ",
-    "dev-server": "webpack-cli serve --mode development"
+    "dev-server": "webpack-cli serve --mode development",
+    "heroku-postbuild": "yarn run build:prod"
+
   },
   "dependencies": {
     "@webpack-cli/init": "^1.1.2",

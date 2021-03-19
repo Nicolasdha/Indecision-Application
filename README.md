@@ -9,7 +9,7 @@
 
 
 # Introduction
-Hello! 
+Hello! This application was built to help anyone figure out what to do next! Simply add in some of your to-dos, and click the button. The application will then tell you what you should do! No more procrastination, or decision paralysis. Just smooth sailing, and making the most of your time everyday. 
 
 
 ## Table of Contents
@@ -26,7 +26,8 @@ Languages:
 * SCSS/CSS
 
 Frameworks/Utilities:
-* React //// CAN I UPDATE TO LATEST REACT AND BABEL?
+* React
+* ExpressJS
 * Jest /// NEEED TO SET UP TEST CASES
 * Enzyme
 
@@ -35,19 +36,19 @@ Compilers/Bundlers:
 * Bable
 
 Platforms:
-* Heroku //// NEEEEED TO SET UP ON HEROKU
+* Heroku
 
 Third-Party Libraries:
-* react-modal
+* React Modal
 
 
 ### Launch
 
  This application is initalized using Heroku. Please follow this hyperlink to be taken to where this application is hosted:
  
- <a href=#/>fix me</a>
+ <a href=https://alacrity-app.herokuapp.com> Alacrity - An Indecision Application </a>
 
-Please feel free to use this application on all mobile devices as well, it is completly optimized for all devices and desktop sizes.
+
 
 
 ### Structure
