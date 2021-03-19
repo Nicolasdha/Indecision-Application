@@ -1,15 +1,13 @@
 # Indecision-Application
 
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-[![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
-
-
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
 # Introduction
 Hello! This application was built to help anyone figure out what to do next! Simply add in some of your to-dos, and click the button. The application will then tell you what you should do! No more procrastination, or decision paralysis. Just smooth sailing, and making the most of your time everyday. 
+
+<a href=https://alacrity-app.herokuapp.com> Alacrity - An Indecision Application </a>
 
 
 ## Table of Contents
@@ -27,7 +25,7 @@ Languages:
 Frameworks/Utilities:
 * React
 * ExpressJS
-* Jest /// NEEED TO SET UP TEST CASES
+* Jest (Need to setup test cases)
 * Enzyme
 
 Compilers/Bundlers:
@@ -36,6 +34,7 @@ Compilers/Bundlers:
 
 Platforms:
 * Heroku
+* Google Firebase (Need to switch from localStorage)
 
 Third-Party Libraries:
 * React Modal
@@ -50,6 +49,6 @@ Third-Party Libraries:
 
 
 
-Thank you for visiting! <br><br><br>
+# Thank you for visiting!
 
 <!-- ![Logo](https://i.ibb.co/nr2trL4/Screen-Shot-2020-09-08-at-4-20-44-PM.png) -->
