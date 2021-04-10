@@ -7,7 +7,7 @@
 # Introduction
 Hello! This application was built to help anyone figure out what to do next! Simply add in some of your to-dos, and click the button. The application will then tell you what you should do! No more procrastination, or decision paralysis. Just smooth sailing, and making the most of your time everyday. 
 
-<a href=https://alacrity-app.herokuapp.com> Alacrity - An Indecision Application </a>
+<a href='https://alacrity-app.herokuapp.com'> Alacrity - An Indecision Application </a>
 
 
 ## Table of Contents
