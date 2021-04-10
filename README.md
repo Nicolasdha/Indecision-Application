@@ -44,7 +44,7 @@ Third-Party Libraries:
 
  This application is initalized using Heroku. Please follow this hyperlink to be taken to where this application is hosted:
  
- <a href=https://alacrity-app.herokuapp.com> Alacrity - An Indecision Application </a>
+ <a href='https://alacrity-app.herokuapp.com'> Alacrity - An Indecision Application </a>
 
 
 
